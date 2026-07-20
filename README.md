@@ -1,6 +1,8 @@
-# joist
+# pyjoist
 
 **A server-side component architecture for Jinja2 + HTMX applications.**
+
+> `pip install pyjoist` — import as `joist` (the package name on PyPI differs from the import name).
 
 joist introduces a component layer between your routes and your templates.
 Components are typed dataclasses that map to Jinja2 templates. Builder
@@ -55,9 +57,9 @@ joist solves these problems with a lightweight component layer:
 ## Quick start
 
 ```bash
-pip install joist
+pip install pyjoist
 # with FastAPI integration:
-pip install "joist[fastapi]"
+pip install "pyjoist[fastapi]"
 ```
 
 ### 1. Define a component
